@@ -2,6 +2,11 @@
 
 A modern, responsive digital clock that displays multiple timezones simultaneously. Part of the **100 Days Frontend Development Challenge** - Day 2 project focusing on JavaScript fundamentals and DOM manipulation.
 
+![World Clock Preview](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
 ## ✨ Features
 
 - 🕐 **Dual Time Format**: Switch between 12-hour and 24-hour formats

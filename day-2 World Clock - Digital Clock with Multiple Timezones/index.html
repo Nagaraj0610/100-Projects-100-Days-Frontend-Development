@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Multiple Timezones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>World Clock</h1>
+        </div>
+        
+        <div class="controls">
+            <button class="format-toggle" id="formatToggle">12 Hour Format</button>
+            
+            <div class="timezone-selector">
+                <select id="timezoneSelect">
+                    <option value="">Select Timezone</option>
+                    <option value="America/New_York">New York (EST/EDT)</option>
+                    <option value="America/Los_Angeles">Los Angeles (PST/PDT)</option>
+                    <option value="Europe/London">London (GMT/BST)</option>
+                    <option value="Europe/Paris">Paris (CET/CEST)</option>
+                    <option value="Asia/Tokyo">Tokyo (JST)</option>
+                    <option value="Asia/Shanghai">Shanghai (CST)</option>
+                    <option value="Asia/Kolkata">India (IST)</option>
+                    <option value="Australia/Sydney">Sydney (AEST/AEDT)</option>
+                    <option value="Asia/Dubai">Dubai (GST)</option>
+                    <option value="America/Sao_Paulo">São Paulo (BRT)</option>
+                </select>
+                <button class="add-btn" id="addTimezone">Add Clock</button>
+            </div>
+        </div>
+        
+        <div class="clocks-grid" id="clocksContainer">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
